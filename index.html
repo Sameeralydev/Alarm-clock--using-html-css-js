@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fontbundles.net/beastdesigner/2423543-digital-clock-font-numeric-alarm-font"
+    />
+    <title>Alarm CLock</title>
+  </head>
+  <body>
+    <div class="clock">
+      <p>Date & Time: <span id="currentTime"></span></p>
+      <input type="time" id="alarmTime" />
+      <div class="btns">
+        <button onclick="setAlarm();">Set Alarm</button>
+        <button onclick="alarmSound.pause();">Stop Alarm</button></div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

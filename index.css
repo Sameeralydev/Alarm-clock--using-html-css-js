@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: brightness(50%);
+    background-image: url("assets/alarmclock-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.clock{
+    /* background-color: aqua; */
+    gap: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 28vh;
+    width: 32vw;
+    backdrop-filter: blur(500px);
+    background: hsla(0, 0%, 100%, 0.11);
+    /* border: 1px solid white; */
+
+
+}
+p{
+    color: aliceblue;
+    font-size: 2vw;
+}
+span{
+    font-weight: 600;
+}
+
+input{
+    width: 15vw;
+    height: 6vh;
+    text-align: center;
+    font-size: 2vw;
+    background: hsla(0, 0%, 100%, 0.11);
+    outline: none;
+    color: rgb(173, 255, 47);
+    
+}
+input:hover{
+    background-color: rgba(255, 255, 255, 0.301);
+}
+.btns button{
+    height: 5vh;
+    width: 7.5vw;
+    background-color: rgba(255, 255, 255, 0.264);
+    font-size: 1vw;
+    letter-spacing: .2vh;
+    word-spacing: .5vh;
+    color: white;
+    font-weight: 600;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+button:active{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
