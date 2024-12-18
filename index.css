@@ -29,6 +29,17 @@ body{
 
 
 }
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+}
+.time span{
+    color: aliceblue;
+    font-size: 2vw;
+    
+}
 p{
     color: aliceblue;
     font-size: 2vw;
@@ -67,4 +78,49 @@ button:hover{
 button:active{
     background-color: rgb(255, 0, 0);
     color: white;
+}
+
+@media (max-width: 700px ) and (min-width: 1px){
+    .clock{
+        width: 43vw;
+        gap: 4vh;
+        height: 40vh;
+    }
+    .time{
+        display: flex;
+        flex-direction: column;
+    }
+    .time span{
+        font-size: 3vw;
+    }
+    input{
+        width: 20vw;
+        height: 8vh;
+        font-size: 2.5vw;
+    }
+    input:hover{
+        background-color: rgba(255, 255, 255, 0.301);
+    }
+    .btns button{
+    height: 8vh;
+    width: 12vw;
+    background-color: rgba(255, 255, 255, 0.264);
+    font-size: 1.7vw;
+    letter-spacing: .2vh;
+    word-spacing: .5vh;
+    color: white;
+    font-weight: 600;
+    }
+    button:hover{
+        background-color: white;
+        color: black;
+    }
+    button:active{
+        background-color: rgb(255, 0, 0);
+        color: white;
+    }
+    p{
+        color: white;
+        font-size: 2.8vw;
+    }
 }

@@ -25,17 +25,3 @@ function playAlarm(){
     document.getElementById('alarmTime').disabled = false;
 
 }
-
-let x =20;
-let y = x;
-
-y= y+1;
-
-let a = ['value1', 'value2'];
-let b = [...a];
-
-b.pop();
-
-console.log(a);
-console.log(b);
-
